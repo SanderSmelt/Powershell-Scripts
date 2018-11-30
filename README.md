@@ -3,6 +3,8 @@ set of small GUI Powershell tool to allow user to complete simple tasks
 
 # Sync-PublicFolderContacts.ps1:
 
+![Alt text](/Screenshot.png?raw=true)
+
 .SYNOPSIS
 
  GUI tool to synchronize Outlook public folder contacts to personal contact folder so that the contacts are available on smartphones
