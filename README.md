@@ -1,21 +1,26 @@
-# Powershell-user-tools
-set of small GUI Powershell tool and scripts
+# Powershell-Scripts
+set of small Powershell GUI tool and Powershell scripts
 
 # Get-DateFromWeekNumber.psm1
 
 NAME
+
  Get-DateFromWeekNumber
 
 SYNOPSIS
+
  Get the date of the specified day, week and year
 
 SYNTAX
+
  Get-DateFromWeekNumber [-week] <Int32> [[-Year] <Int32>] [[-Day] <String>] [<CommonParameters>]
 
 DESCRIPTION
+
  Get the date of the specified day, week and year
 
 PARAMETERS
+
  -week <Int32>
      specifie number of the week between 1 and 52
 
@@ -44,12 +49,15 @@ PARAMETERS
      Accept wildcard characters?  false
 
 INPUTS
+
  None. You cannot pipe objects to get-datefromweeknumber.
 
 OUTPUTS
+
  System.DateTime object of the requested day
 
 NOTES
+
  Filename: Get-DateFromWeekNumber.psm1
  Version: 1.0
  Author: Sander Smelt
@@ -71,6 +79,7 @@ NOTES
  Wednesday, March 4, 2020 12:43:42 PM
 
 RELATED LINKS
+
  https://github.com/SanderSmelt
 
 # Sync-PublicFolderContacts.ps1:
