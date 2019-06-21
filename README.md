@@ -13,7 +13,7 @@ SYNOPSIS
 
 SYNTAX
 
- Get-DateFromWeekNumber [-week] <Int32> [[-Year] <Int32>] [[-Day] <String>] [<CommonParameters>]
+ Get-DateFromWeekNumber [-week] \<Int32\> [[-Year] \<Int32\>] [[-Day] \<String\>]
 
 DESCRIPTION
 
@@ -22,6 +22,7 @@ DESCRIPTION
 PARAMETERS
 
  -week <Int32>
+ 
      specifie number of the week between 1 and 52
 
      Required?                    true
@@ -31,6 +32,7 @@ PARAMETERS
      Accept wildcard characters?  false
 
  -Year <Int32>
+ 
      Specifie the year. the current year is the default.
 
      Required?                    false
@@ -40,6 +42,7 @@ PARAMETERS
      Accept wildcard characters?  false
 
  -Day <String>
+ 
      Specifie the day. the current day is the default.
 
      Required?                    false
@@ -59,23 +62,30 @@ OUTPUTS
 NOTES
 
  Filename: Get-DateFromWeekNumber.psm1
+ 
  Version: 1.0
+ 
  Author: Sander Smelt
+ 
  Creation Date: 21-06-2019
+ 
 
  -------------------------- EXAMPLE 1 --------------------------
 
  PS>get-datefromweeknumber -week 1
+ 
  Friday, January 4, 2019 12:43:42 PM
 
  -------------------------- EXAMPLE 2 --------------------------
 
  PS>get-datefromweeknumber -week 1 -day "monday"
+ 
  Monday, December 31, 2018 12:43:42 PM
 
  -------------------------- EXAMPLE 3 --------------------------
 
  PS>get-datefromweeknumber -week 10 -day "wednesday" -year 2020
+ 
  Wednesday, March 4, 2020 12:43:42 PM
 
 RELATED LINKS
